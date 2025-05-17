@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/college/college-website/static/css/main.3ce3231a.css",
+    "main.js": "/college/college-website/static/js/main.bdfa9d5d.js",
+    "static/js/453.bf3c081c.chunk.js": "/college/college-website/static/js/453.bf3c081c.chunk.js",
+    "static/media/cnt.jpg": "/college/college-website/static/media/cnt.c20ea6590eea53f77c3b.jpg",
+    "static/media/home2.jpg": "/college/college-website/static/media/home2.25f0548222a8e7ca6038.jpg",
+    "static/media/home1.jpg": "/college/college-website/static/media/home1.28127e8af0f8da8d2b8f.jpg",
+    "static/media/crs1.jpg": "/college/college-website/static/media/crs1.424a1378b192895b50a4.jpg",
+    "static/media/blg1.jpg": "/college/college-website/static/media/blg1.54e9f4c20942f92fd034.jpg",
+    "static/media/abt1.jpg": "/college/college-website/static/media/abt1.5c3733e94902b2641681.jpg",
+    "index.html": "/college/college-website/index.html",
+    "main.3ce3231a.css.map": "/college/college-website/static/css/main.3ce3231a.css.map",
+    "main.bdfa9d5d.js.map": "/college/college-website/static/js/main.bdfa9d5d.js.map",
+    "453.bf3c081c.chunk.js.map": "/college/college-website/static/js/453.bf3c081c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ce3231a.css",
+    "static/js/main.bdfa9d5d.js"
+  ]
+}
