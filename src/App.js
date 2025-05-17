@@ -9,11 +9,11 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Home/>}exact/>
-        <Route path='/about' element={<About/>}exact/>
-        <Route path='/course' element={<Course/>}exact/>
-        <Route path='/blog' element={<Blog/>}exact/>
-        <Route path='/contact' element={<Contact/>}exact/>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/about' element={<About/>}/>
+        <Route path='/course' element={<Course/>}/>
+        <Route path='/blog' element={<Blog/>}/>
+        <Route path='/contact' element={<Contact/>}/>
       </Routes>
       </BrowserRouter>
     </div>
