@@ -1,15 +1,17 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import './Blog.css'
+import logo from '../images/logos.png'
+import blog from '../images/blg2.jpg'
 
 const Blog = () => {
   return (
     <div>
 
       {/* SUB-HEADER */}
-      <section className="sub-header">
+      <section className="blog-sub-header">
         <nav>
-          <img src='./imagesilogos.png' alt='' width={150} height={150}/>
+          <img src={logo} alt='' width={150} height={150}/>
           <div className="nav-links">
           <ul>
             <li><Link to='/'>HOME</Link></li>
@@ -27,7 +29,7 @@ const Blog = () => {
       <section className="blog">
         <div className="row">
           <div className="blog-left">
-            <img src='./images/blg2.jpg' alt=''/>
+            <img src={blog} alt=''/>
             <h2>Our Certificate & Online Programs For 2024</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ea atque labore aliquam. 
               Dolorem sunt autem ducimus hic reiciendis tempore cupiditate minima accusantium veritatis 

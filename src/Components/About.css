@@ -1,10 +1,5 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: "Poppins", sans-serif;
-}
 /* SUB-HEADER */
-.sub-header{
+.about-sub-header{
     height: 95vh;
     width: 1005;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/abt1.jpg);
@@ -57,17 +52,22 @@ nav{
     font-size: xx-large;
     padding-top: 100px;
 }
-
 /* ABOUT-US */
 .about-us{
     width: 80%;
     margin: 40px;
     padding: 50px;
-}.about-us h1{
-    font-size: xx-large;
 }
-.about-us img{
+.about-col img{
     float: right;
+    width: 600px;
+}
+.about-col h1{
+    margin-bottom: 10px;
+}
+.about-col p{
+    line-height: 20px;
+    margin-top: 20px;
 }
 .explore{
     background: rgba(255,99,25,255);
@@ -89,7 +89,8 @@ nav{
 
 /* FOOTER */
 .footer{
-    width: 100%;
+    width: 50%;
+    margin: auto;
     text-align: center;
     padding-bottom: 30px;
 }

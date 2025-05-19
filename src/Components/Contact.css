@@ -1,10 +1,5 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: "Poppins", sans-serif;
-}
 /* SUB-HEADER */
-.sub-header{
+.contact-sub-header{
     height: 95vh;
     width: 1005;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/cnt.jpg);
@@ -57,11 +52,11 @@ nav{
     font-size: xx-large;
     padding-top: 100px;
 }
-
 /* CONTACT */
 .location{
     width: 80%;
     margin: auto;
+    margin-top: 20px;
     padding-left: 80px 0;
 }
 .location iframe{
@@ -83,6 +78,8 @@ nav{
     display: flex;
     align-items: center;
     margin-bottom: 40px;
+    background-color: #ccc;
+    padding: 20px;
 }
 .contact-col div i{
     font-size: 28px;

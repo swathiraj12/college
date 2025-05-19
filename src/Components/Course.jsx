@@ -1,15 +1,19 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import './Course.css'
+import logo from '../images/logos.png'
+import library from '../images/library.jpg'
+import canteen from '../images/cantn.jpg'
+import playground from '../images/playgroung.jpg'
 
 const Course = () => {
   return (
     <div>
 
       {/* SUB-HEADER */}
-      <section className="sub-header">
+      <section className="course-sub-header">
         <nav>
-          <img src='./imagesilogos.png' alt='' width={150} height={150}/>
+          <img src={logo} alt='' width={150} height={150}/>
           <div className="nav-links">
           <ul>
             <li><Link to='/'>HOME</Link></li>
@@ -49,17 +53,17 @@ const Course = () => {
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
             <div className="row">
                 <div className="facility-col">
-                    <img src='./images/library.jpg' alt=''/>
+                    <img src={library} alt=''/>
                     <h3>World Class Library</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
                 <div className="facility-col">
-                    <img src='./images/cantn.jpg' alt=''/>
+                    <img src={canteen} alt=''/>
                     <h3>Tasty and Hygenic Canteen</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
                 <div className="facility-col">
-                    <img src='./images/playground' alt=''/>
+                    <img src={playground} alt=''/>
                     <h3>Largest Playground</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>

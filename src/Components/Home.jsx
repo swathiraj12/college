@@ -1,16 +1,24 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import './Home.css';
-
+import Logo from '../images/logos.png'
+import london from '../images/london.jpg'
+import austria from '../images/austria.jpg'
+import us from '../images/america.jpg'
+import library from '../images/library.jpg'
+import canteen from '../images/cantn.jpg'
+import playground from '../images/playgroung.jpg'
+import user1 from '../images/user1.jpg'
+import user2 from '../images/user2.jpg'
 
 const Home = () => {
   return (
     <>
     <div>
         {/* HEADER */}
-        <section className='header'>
+        <section className='home-header'>
             <nav>
-                <img src='./images/logos.png' alt='' width={150} height={150}/>
+                <img src={Logo} alt='' width={150} height={150}/>
                 <div className="nav-links">
                     <ul>
                         <li><Link to='/'>HOME</Link></li>
@@ -37,15 +45,15 @@ const Home = () => {
             <div className="row">
                 <div className="course-col">
                     <h3>Intermediate</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, consequuntur rem? Tempore id qui, sed, beatae aliquid tempora obcaecati nesciunt facere, enim reprehenderit laudantium! Perferendis temporibus minus ab consectetur rerum.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, consequuntur rem? Tempore id qui, sed, beatae aliquid tempora obcaecati nesciunt facere, enim.</p>
                 </div>
                 <div className="course-col">
                     <h3>Degree</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, consequuntur rem? Tempore id qui, sed, beatae aliquid tempora obcaecati nesciunt facere, enim reprehenderit laudantium! Perferendis temporibus minus ab consectetur rerum.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, consequuntur rem? Tempore id qui, sed, beatae aliquid tempora obcaecati nesciunt facere, enim reprehenderit laudantium! Perferendis.</p>
                 </div>
                 <div className="course-col">
                     <h3>Post Graduation</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, consequuntur rem? Tempore id qui, sed, beatae aliquid tempora obcaecati nesciunt facere, enim reprehenderit laudantium! Perferendis temporibus minus ab consectetur rerum.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, consequuntur rem? Tempore id qui, sed, beatae aliquid tempora obcaecati.</p>
                 </div>
             </div>
         </section>
@@ -56,19 +64,19 @@ const Home = () => {
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
             <div className="row">
                 <div className="campus-col">
-                    <img src='./images/london.jpg' alt=''/>
+                    <img src={london} alt=''/>
                     <div className="layer">
                         <h3>LONDON</h3>
                     </div>
                 </div>
                 <div className="campus-col">
-                    <img src='./images/austria.jpg' alt=''/>
+                    <img src={austria} alt=''/>
                     <div className="layer">
                         <h3>AUSTRIA</h3>
                     </div>
                 </div>
                 <div className="campus-col">
-                    <img src='./images/america.jpg' alt=''/>
+                    <img src={us} alt=''/>
                     <div className="layer">
                         <h3>AMERICA</h3>
                     </div>
@@ -82,17 +90,17 @@ const Home = () => {
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
             <div className="row">
                 <div className="facility-col">
-                    <img src='./images/library.jpg' alt=''/>
+                    <img src={library} alt=''/>
                     <h3>World Class Library</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
                 <div className="facility-col">
-                    <img src='./images/cantn.jpg' alt=''/>
+                    <img src={canteen} alt=''/>
                     <h3>Tasty and Hygenic Canteen</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
                 <div className="facility-col">
-                    <img src='./images/playground' alt=''/>
+                    <img src={playground} alt=''/>
                     <h3>Largest Playground</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
@@ -105,7 +113,7 @@ const Home = () => {
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
             <div className="row">
                 <div className="testimonial-col">
-                    <img src='./images/user1.jpg' alt=''/>
+                    <img src={user1} alt=''/>
                     <div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam eum quibusdam totam nulla repudiandae? Corporis aliquid, ab assumenda commodi officia, vel sed sequi, tempora velit repellat eum totam. Nihil, corporis.</p>
                         <h3>Merideth Grey</h3>
@@ -117,7 +125,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="testimonial-col">
-                    <img src='./images/user2.jpg' alt=''/>
+                    <img src={user2} alt=''/>
                     <div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam eum quibusdam totam nulla repudiandae? Corporis aliquid, ab assumenda commodi officia, vel sed sequi, tempora velit repellat eum totam. Nihil, corporis.</p>
                         <h3>Derek Shepard</h3>

@@ -1,15 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import './About.css';
+import logo from '../images/logos.png'
+import about from '../images/abt2.jpg'
 
 const About = () => {
   return (
     <div>
-
       {/* SUB-HEADER */}
-      <section className="sub-header">
+      <section className="about-sub-header">
         <nav>
-          <img src='./images/logos.png' alt='' width={150} height={150}/>
+          <img src={logo} alt='' width={150} height={150}/>
           <div className="nav-links">
           <ul>
             <li><Link to='/'>HOME</Link></li>
@@ -27,7 +28,7 @@ const About = () => {
       <section className="about-us">
         <div className="row">
           <div className="about-col">
-            <img src='./images/abt2.jpg' alt=''/>
+            <img src={about} alt=''/>
           </div>
           <div className="about-col">
             <h1>We Are The World's Largest <br/> University</h1>

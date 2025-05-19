@@ -1,10 +1,5 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: "Poppins", sans-serif;
-}
 /* SUB-HEADER */
-.sub-header{
+.course-sub-header{
     height: 95vh;
     width: 1005;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/crs1.jpg);
@@ -57,7 +52,6 @@ nav{
     font-size: xx-large;
     padding-top: 100px;
 }
-
 /* COURSE */
 .course{
     width: 100%;
@@ -124,31 +118,4 @@ h3{
     margin-top: 16px;
     margin-bottom: 15px;
     text-align: left;
-}
-
-/* FOOTER */
-.footer{
-    width: 100%;
-    text-align: center;
-    padding-bottom: 30px;
-}
-.footer h4{
-    margin-bottom: 25px;
-    margin-top: 20px;
-    font-weight: 600;
-}
-.icons{
-    text-decoration: none;
-    color: #000;
-    text-align: center;
-}
-.icons ion-icon{
-    color: #000;
-    font-size: 30px;
-    padding: 20px;
-    cursor: pointer;
-    transition: 0.3s ease;
-}
-.icons ion-icon:hover{
-    color: rgba(255,99,25,255);
 }
